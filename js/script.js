@@ -16,12 +16,12 @@ $(document).ready(function() {
     // hover
     var n;
 
-    $('#logo img').stop().animate({width:160, height:160, left:66, top:66}, 600, 'easeOutBack')
+    $('#logo img').stop().animate({width:160, height:160, left:66, top:-34}, 600, 'easeOutBack')
     $('.navigation area').hover(function(){
         n=$(this).attr('class');
         fl2=false;
         if (n=='logo') {
-           $('#logo img').stop().animate({width:200, height:200, left:45, top:45}, 600, 'easeOutBack')
+           $('#logo img').stop().animate({width:200, height:200, left:45, top:-55}, 600, 'easeOutBack')
         } else {
             n=parseInt(n.slice(-1))
             $('#nav'+n+'> img').css({zIndex:8}).stop().animate({width:165, height:177, left:5, top:5}, 600, 'easeOutBack', function(){$(this).css({zIndex:7})})
@@ -30,7 +30,7 @@ $(document).ready(function() {
     }, function(){
         var n=$(this).attr('class');
         if (n=='logo') {
-            $('#logo img').stop().animate({width:160, height:160, left:66, top:66}, 600, 'easeOutBack')
+            $('#logo img').stop().animate({width:160, height:160, left:66, top:-34}, 600, 'easeOutBack')
         } else {
             n=parseInt(n.slice(-1));
             $('#nav'+n+'> img').stop().animate({width:145, height:157, left:15, top:15}, 600, 'easeOutBack', function(){$(this).css({zIndex:6})})
@@ -39,9 +39,9 @@ $(document).ready(function() {
     })
 
     $('.logo').hover(function(){
-        $('#logo img').stop().animate({width:200, height:200, left:45, top:45}, 600, 'easeOutBack')
+        $('#logo img').stop().animate({width:200, height:200, left:45, top:-55}, 600, 'easeOutBack')
     }, function(){
-        $('#logo img').stop().animate({width:160, height:160, left:66, top:66}, 600, 'easeOutBack')
+        $('#logo img').stop().animate({width:160, height:160, left:66, top:-34}, 600, 'easeOutBack')
     })
 
     $('#back, .back a').hover(function(){
