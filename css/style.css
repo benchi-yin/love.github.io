@@ -50,12 +50,12 @@ header{}
 #menu > li > img{ position:relative; z-index:6; top:15px; left:15px;}
 #menu > li > span{ position: absolute; width:145px; top:82px; color:#fff; text-align:center;  left:15px; text-shadow:1px 1px rgba(0,0,0,.2); z-index:9}
 
-#nav1{ top:5px; left:304px;}
-#nav2{ top:139px; left:230px;}
-#nav3{ top:272px; left:304px;}
-#nav4{ top:272px; left:458px;}
-#nav5{ top:139px; left:536px;}
-#nav6{ top:5px; left:458px;}
+#nav1{ top:105px; left:304px;}
+#nav2{ top:239px; left:230px;}
+#nav3{ top:372px; left:304px;}
+#nav4{ top:372px; left:458px;}
+#nav5{ top:239px; left:536px;}
+#nav6{ top:105px; left:458px;}
 
 #navigation{ position:absolute; z-index:12; top:120px; left:245px; height:424px; width:451px;}
 
