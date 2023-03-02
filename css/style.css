@@ -6,9 +6,9 @@
 .wrapper {width:100%; overflow:hidden;}
 .relative{ position:relative;}
 
-/* Global properties ======================================================== */
+/* Global properties ======================================top center================== */
 
-body{ background: url(../images/bg.jpg) no-repeat 0 0/100%; border:0; font:12px 'Droid Sans', sans-serif; color:#939090; line-height:21px; min-width:946px; overflow:hidden}
+body{ background: url(../images/bg.jpg) no-repeat center center; border:0; font:12px 'Droid Sans', sans-serif; color:#939090; line-height:21px; min-width:946px; overflow:hidden}
 
 .css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
 
@@ -50,12 +50,12 @@ header{}
 #menu > li > img{ position:relative; z-index:6; top:15px; left:15px;}
 #menu > li > span{ position: absolute; width:145px; top:82px; color:#fff; text-align:center;  left:15px; text-shadow:1px 1px rgba(0,0,0,.2); z-index:9}
 
-#nav1{ top:105px; left:304px;}
-#nav2{ top:239px; left:230px;}
-#nav3{ top:372px; left:304px;}
-#nav4{ top:372px; left:458px;}
-#nav5{ top:239px; left:536px;}
-#nav6{ top:105px; left:458px;}
+#nav1{ top:5px; left:304px;}
+#nav2{ top:139px; left:230px;}
+#nav3{ top:272px; left:304px;}
+#nav4{ top:272px; left:458px;}
+#nav5{ top:139px; left:536px;}
+#nav6{ top:5px; left:458px;}
 
 #navigation{ position:absolute; z-index:12; top:120px; left:245px; height:424px; width:451px;}
 
