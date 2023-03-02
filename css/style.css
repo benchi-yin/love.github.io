@@ -8,7 +8,7 @@
 
 /* Global properties ======================================================== */
 
-body{ background: url(../images/bg.jpg) no-repeat top center; border:0; font:12px 'Droid Sans', sans-serif; color:#939090; line-height:21px; min-width:946px; overflow:hidden}
+body{ background: url(../images/bg.jpg) no-repeat 0 0/100%; border:0; font:12px 'Droid Sans', sans-serif; color:#939090; line-height:21px; min-width:946px; overflow:hidden}
 
 .css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
 
